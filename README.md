@@ -34,5 +34,5 @@ Check font styles. Use [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Ple
 
 
 
-  [DEMO LINK](https://DY-JS.github.io/museum-landing-page.git/).
+  [DEMO LINK](https://dy-js.github.io/museum-landing-page/).
 
