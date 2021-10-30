@@ -3,15 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>NAMU</title>
+    <link
+      rel="icon"
+      href="./images/favicon.ico"
+      type="image/x-icon"
+    >
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com"
+     crossorigin
+    >
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
       rel="stylesheet"
     >
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com"
+     crossorigin
+    >
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;700&family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
@@ -67,7 +76,7 @@
               <a href="#visit" class="list__link">Відвідування</a>
             </li>
             <li class="list__item">
-              <a href="#be-friend" class="list__link">Стати нашим другом</a>
+              <a href="#subscribe" class="list__link">Стати нашим другом</a>
             </li>
             <li class="list__item">
               <a href="#about-us" class="list__link">Про нас</a>
@@ -236,29 +245,29 @@
         </div>
       </div>
     </main>
-     <footer class="footer page__footer">
-      <div class="footer__subscribe subscribe">
+    <footer class="footer page__footer">
+      <div class="footer__subscribe subscribe" id="subscribe">
         <p class="subscribe__title">Підписка</p>
         <p class="subscribe__info">
           Бути в курсі всіх актуальних подій та останніх новин.
         </p>
-        <form action="#" method="POST" class="subscribe__form form--footer">
-          <input type="email" class="form__input--footer" placeholder="Email">
-          <button class="form__btn" type="submit">
+        <form action="" method="POST" class="subscribe__form form--footer">
+          <input type="email" class="form__input--footer" placeholder="Email" required>
+          <button class="form__btn" type="button">
             <img src="./images/arrow-black.png" alt="submit">
           </button>
         </form>
       </div>
       <div class="footer__contacts contacts" id="contacts">
         <div class="contacts__logo-socials">
-          <a class="contacts__logo">
+          <a href="#" class="contacts__logo">
             <img src="./images/NA MU.svg" alt="logo">
           </a>
           <div class="contacts__socials">
-            <a class="contacts__icon">
+            <a href="https://www.facebook.com/namu.museum/" rel="noopener" target="_blank" class="contacts__icon">
               <img src="./images/facebook.png" alt="facebook">
             </a>
-            <a class="contacts__icon">
+            <a href="https://www.instagram.com/namu.museum/" rel="noopener" target="_blank" class="contacts__icon">
               <img src="./images/insta.png" alt="instagramm">
             </a>
           </div>
@@ -305,9 +314,9 @@
           <a class="footer__link" href="#gallery">Галерея</a>
           <a class="footer__link" href="#events">Виставки та події</a>
           <a class="footer__link" href="#visit">Відвідування</a>
-          <a class="footer__link" href="#be-friend">Стати нашим другом</a>
+          <a class="footer__link" href="#subscribe">Стати нашим другом</a>
         </div>
-       <div class="footer__left-links">
+        <div class="footer__left-links">
           <a class="footer__link" href="#about-us">Про Нас</a>
           <a class="footer__link" href="#shop">Магазин</a>
           <a class="footer__link" href="#blog">Блог</a>
@@ -319,7 +328,7 @@
         <p class="footer__copyright">Designed by Zhyriada Marina.</p>
         <p class="footer__copyright">Copyright © 2019. All Rights Reserved.</p>
       </div>
-    </footer> 
+    </footer>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

@@ -21,7 +21,7 @@ Check font styles. Use [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Ple
 ## HR important moments
 
 - Скорость анимаций на всем лендинге одинаковые (например увеличение при наведении или выезд блоков при скроле)
-- Placeholder в формах подсказывают что именно ввести, а если стоит валидация формы, то понятно в каком формате вводить номер телефона 
+- Placeholder в формах подсказывают что именно ввести, а если стоит валидация формы, то понятно в каком формате вводить номер телефона
 - Убедитесь, что с мобильных выглядит все аккуратно и без горизонтальной прокрутки
 - Добавьте favicon
 - Добавьте мягкий скрол при клике на меню до соответствующего блока страницы
@@ -47,7 +47,7 @@ Check font styles. Use [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Ple
 11. `git push origin develop` - to send you code for PR.
 12. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
 13. Replace `<your_account>` with your Github username in the
-  [DEMO LINK](https://DY-JS.github.io/Museum/).
+  [DEMO LINK](https://DY-JS.github.io/museum-landing-page.git/).
 14. Copy `DEMO LINK` to the PR description.
 
 > To update you PR repeat steps 7-11.

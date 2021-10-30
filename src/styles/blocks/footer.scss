@@ -54,18 +54,18 @@
   }
 
   &__line {
-    margin: 20px auto 40px;
-    width: 95%;
+    margin: 20px auto 20px 20px;
+    width: 85%;
     height: 1px;
     border-bottom: 1px solid rgba(26, 90, 76, 0.5);
 
     @media (min-width: 768px) {
-      margin: 46px 154px 51px;
+      margin: 46px 130px 51px;
     }
 
     @media (min-width: 1280px) {
       width: 400px;
-      margin: 10px 0 30px 340px;
+      margin: 10px 0 30px 380px;
       transform: rotate(90deg);
       transform-origin: right;
     }
@@ -78,7 +78,7 @@
 
   &__links {
     margin: 0;
-    padding: 0 40px;
+    padding: 0 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,7 +86,14 @@
     overflow: hidden;
 
     @media (min-width: 768px) {
-      margin: 46px 194px 51px;
+      margin: 46px 100px 51px;
+      padding: 0 40px;
+      width: 80%;
+      //justify-content: flex-start;
+    }
+
+    @media (min-width: 1280px) {
+
       justify-content: flex-start;
     }
   }
@@ -94,14 +101,23 @@
   &__right-links {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 30%;
     height: 120px;
     justify-content: space-between;
     align-items: flex-start;
     text-align: left;
 
     @media (min-width: 768px) {
-      margin-right: 25px;
+      padding-right: 285px;
+      padding-left: 35px;
+    }
+
+    @media (min-width: 950px) {
+      padding-left: 55px;
+    }
+
+    @media (min-width: 1100px) {
+      padding-left: 85px;
     }
 
     @media (min-width: 1280px) {
@@ -124,13 +140,16 @@
   &__left-links {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 30%;
     height: 120px;
+    //padding-left: 5px;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     text-align: left;
 
     @media (min-width: 768px) {
+      align-items: flex-start;
+      //padding-left: 25px;
     }
 
     @media (min-width: 1280px) {
@@ -141,20 +160,19 @@
       margin: 0;
       bottom: -430px;
       right: -200px;
-      transform: translateX(-150%) ;
+      transform: translateX(-150%);
     }
 
     @media (min-width: 1920px) {
       position: absolute;
       bottom: -510px;
-      transform: translateX(-200%) ;
+      transform: translateX(-200%);
     }
   }
 
-   &__link {
+  &__link {
     text-decoration: none;
     color: #0f0e08;
-    ;
   }
 
   &__bottom {
@@ -165,10 +183,10 @@
     width: 90%;
     height: 46px;
     font-weight: 300;
-    margin: 100px auto 48px;
+    margin: 60px auto 48px;
 
     @media (min-width: 768px) {
-      width: 80%;
+      width: 70%;
       flex-direction: row;
     }
   }

@@ -74,6 +74,13 @@
     height: auto;
     box-sizing: border-box;
     overflow: hidden;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all ease-in-out 0.5s;
+    }
 
     &::after {
       content: "";
